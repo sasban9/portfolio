@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Bansal Portfolio :: since 2020</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
+    <style>
+        * {
+            font-size: 1.2rem
+        }
+
+        tr td:nth-of-type(2) {
+            text-align: right; font-weight: bold;color: tomato;
+        }
+        tr td:nth-of-type(2)::before {
+            content: '+';
+        }
+        tr td:nth-of-type(4) {
+            text-align: right;
+            background-color: lightsteelblue;
+        }
+
+        tr td:nth-of-type(5) {
+            background-color: lightsteelblue;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom: 6rem;">
+    <div class="container">
+        <h2 class="my-4">Sumit Bansal Portfolio (41 Live/29 Profit/4 Loss)<small style="font-size: 20px;">**Current prices are from last Sunday</small></h2>
+        
+        <table class="table" id="myTable">
+            <thead>
+                <th>Entry Date</th><th>Entry Price</th><th>STOCK</th><th>Exit Price</th><th>Exit Date</th><th>Comment</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023-07-11</td><td>1597.80</td><td>Permanent Magnets 10x</td><td>1512.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-07-05</td><td>589.85</td><td>Solex Energy 10x</td><td>600.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-06-20</td><td>482.80</td><td> Titagarh Rail Systems  10x</td><td>650.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-06-13</td><td>291.00</td><td>Saksoft Ltd 10x</td><td>315.70</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-05-24</td><td>528.85</td><td>Nitin Castings 10x</td><td>473.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-05-18</td><td>267.80</td><td>Infinium Pharmachem 10x</td><td>315.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-04-20</td><td>135.40</td><td>Integra Engineering 10x</td><td>215.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-04-17</td><td>272.00</td><td>Mold-Tek Technologies 10x</td><td>230.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-04-10</td><td>310.70</td><td>Ramkrishna Forgings 10x</td><td>314.00</td><td>2023-04-18</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2023-04-05</td><td>714.00</td><td>ADC India Communications 10x</td><td>925.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-04-03</td><td>777.00</td><td>Venus Pipes & Tubes Ltd 10x</td><td>1205.20</td><td></td><td>live</td>
+                </tr>
+                <tr style="background: palegreen;">
+                    <td>2023-02-06</td><td>196.00</td><td>Shri Venkatesh Refineries 100x</td><td>135.75</td><td></td><td>live</td>
+                </tr>
+                <tr style="background: palegreen;">
+                    <td>2023-02-06</td><td>1063.90</td><td>Jyoti Resins and Adhesives 100x</td><td>1404.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2023-01-13</td><td>59.35</td><td>Syschem (India) 10x</td><td>37.60</td><td></td><td>live+risky</td>
+                </tr>
+                <tr>
+                    <td>2023-01-06</td><td>571.00</td><td>Archean Chemical Industries 10x</td><td>594.65</td><td>2023-06-07</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-12-13</td><td>175.00</td><td>Rama Steel Tubes 10x</td><td>39.95 x5</td><td>2023-06-07</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-11-29</td><td>142.60</td><td>Som Distilleries and Breweries</td><td>147.00</td><td>2023-03-15</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-11-09</td><td>331.90</td><td>eMudhra Ltd</td><td>504.30</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-11-09</td><td>811.00</td><td>Prudent Corporate Advisory Services</td><td>835.00</td><td>2023-02-28</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-11-04</td><td>1440.00</td><td>Data Patterns (India) +7.98%</td><td>1555.00</td><td>2023-05-15</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-10-21</td><td>288.70</td><td>Hariom Pipe Industries</td><td>606.65</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-10-14</td><td>154.00</td><td>Virtuoso Optoelectronics Ltd.</td><td>156.50</td><td>2022-11-03</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2022-09-02</td><td>841.95</td><td>Samrat Pharmachem 10x</td><td>434.90</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-08-25</td><td>1460.00</td><td>Cantabil Retail India Ltd. 10x</td><td>1007</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-07-18</td><td>884.00</td><td>Aether Industries 10x</td><td>1071.65</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-06-13</td><td>608.00</td><td>KPI Green Energy 10x</td><td>847.75</td><td></td><td>live</td>
+                </tr>
+                <tr style="background:palegreen">
+                    <td>2022-04-29</td><td>825.00</td><td>Beta Drugs 100x</td><td>728.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-04-13</td><td>284.00</td><td>Dynacons Systems & Solutions Ltd (DSSL) 10x</td><td>560.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-03-17</td><td>124.00</td><td>Dwarikesh Sugar Industries 10x</td><td>98.35</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-03-17</td><td>335.50</td><td>Gravita India 10x</td><td>295.00</td><td>2022-05-19</td><td>loss</td>
+                </tr>
+                <tr>
+                    <td>2022-01-17</td><td>93.50</td><td>Dynamic Cables 10x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2022-01-10</td><td>165.00</td><td>Precision Camshafts 10x</td><td>169.25</td><td>2023-06-05</td><td>profit</td>
+                </tr>
+                <!-- GAP -->
+                <tr>
+                    <td>2021-12-30</td><td>332.00</td><td>Sangam India 10x</td><td>346.50</td><td>2023-07-21</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-12-29</td><td>91.35</td><td>Commercial Syn Bags (COMSYN)</td><td>102.50</td><td>2023-02-28</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-11-14</td><td>83.00</td><td>Cargosol Logistics </td><td></td><td></td><td>live+risky</td>
+                </tr>
+                <tr>
+                    <td>2021-11-14</td><td>126.00</td><td>Insolation Energy</td><td></td><td></td><td>live+risky</td>
+                </tr>
+                <tr style="background: palegreen">
+                    <td>2021-10-07</td><td>858.00</td><td>Best Agrolife 100x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-08-04</td><td>1370.00</td><td>Cosmo Films +16.5%</td><td>1596.00</td><td>2022-03-11</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-06-30</td><td>652.00</td><td>Kilpest India (re-entry) 100x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-16</td><td>447.00</td><td>Globus Spirits +80.8%</td><td>808.30</td><td>2023-03-14</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-06-14</td><td>351.00</td><td>Godawari Power & Ispat +16.8%</td><td>410.00</td><td>2023-01-24</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-06-07</td><td>1950.00</td><td>NGL Fine-Chem  </td><td>2006.00</td><td>2022-03-11</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-05-24</td><td>660.00</td><td>Prince Pipes +11.6%</td><td>737.00</td><td>2022-01-17</td><td>profit</td>
+                </tr>
+                <!-- <tr>
+                    <td>2021-05-19</td><td>660.00</td><td>Prince Pipes +11.6%</td><td>737.00</td><td>2022-01-17</td><td>profit</td>
+                </tr> -->
+                <tr>
+                    <td>2021-04-20</td><td>588.00</td><td>Supreme Petrochem 10x</td><td>374.00 x2</td><td>2023-04-17</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-03-19</td><td>60.85</td><td>Manali Petrochemical (10x to 100x) +71.3%</td><td>104.25</td><td>2022-03-11</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-03-12</td><td>717.00</td><td>Rajratan Global Wire 10x</td><td>735.00 x5</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-03-08</td><td>132.50</td><td>Welspun Enterprises Ltd 10x</td><td>144.00</td><td>2022-09-22</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-03-01</td><td>93.75</td><td>Gulshan Polyols Ltd 10x</td><td>234.65</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-03-01</td><td>58.60</td><td>Kriti Industries Ltd +92.8%</td><td>113.25</td><td>2023-04-03</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-03-01</td><td>169.00</td><td>Panama Petrochem Ltd +99.4%</td><td>337.00</td><td>2023-01-24</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-03-01</td><td>1651.00</td><td>Balaji Amines Ltd 10x</td><td>2206.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-02-17</td><td>268.00</td><td>Acrysil Ltd +106%</td><td>552.00</td><td>2023-04-03</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-02-17</td><td>314.00</td><td>Goldiam International 10x</td><td>126.70 x5</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-01-10</td><td>73.95</td><td>Sadhana Nitrochem +54.1%</td><td>114.00</td><td>2023-02-06</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-01-07</td><td>645.00</td><td>TATA Steel Long Products Ltd 10x</td><td>705.20</td><td></td><td>live</td>
+                </tr>
+                <tr style="background: palegreen;">
+                    <td>2021-01-06</td><td>1997.00</td><td>TATA Elxsi 100x</td><td>7295.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-01-04</td><td>864.00</td><td>APL Apollo Tubes Ltd 10x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-12-31</td><td>129.50</td><td>GTPL Hathaway 10x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-12-28</td><td>140.00</td><td>Action Construction Equipments ACE 10x</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-12-24</td><td>1059.00</td><td>Tata Communications 10x</td><td>1105.00</td><td>2021-03-01</td><td>profit</td>
+                </tr>
+                <tr style="background: palegreen;">
+                    <td>2020-12-08</td><td>458.25</td><td>Adani Enterprises 100x</td><td>2430.00</td><td></td><td>live</td>
+                </tr>
+                <tr style="background: palegreen;">
+                    <td>2020-11-27</td><td>341.05</td><td>Adani Gas 100x</td><td>635.60</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-11-27</td><td>255.50</td><td>Sree Rayalaseema Hi-Strength 10x</td><td>241.00</td><td>2020-12-09</td><td>loss</td>
+                </tr>
+                <tr>
+                    <td>2020-10-24</td><td>85.50</td><td>Cybertech Systems & Software +89.5%</td><td>162.00</td><td>2021-01-04</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2020-10-12</td><td>98.70</td><td>Bhansali Engg BEPL +25.3%</td><td>123.70</td><td>2020-12-09</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2020-08-20</td><td>1244.10</td><td>Astec Lifesciences 100x</td><td>1305.50</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-08-19</td><td>96.10</td><td>Zen Technologies 100x</td><td>84.00</td><td>2020-10-12</td><td>loss</td>
+                </tr>
+                <tr>
+                    <td>2020-08-07</td><td>148.00</td><td>Tanla Solutions 10x</td><td>1315.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-08-04</td><td>409.00</td><td>Diamines & Chemicals 10x</td><td>359.00</td><td>2020-12-09</td><td>loss</td>
+                </tr>
+                <tr>
+                    <td>2020-07-07</td><td>217.50</td><td>Kilpest India +58.6%</td><td>345.00</td><td>2021-01-07</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2020-03-30</td><td>174.10</td><td>IOL Chemicals & Pharmaceuticals +96.4%</td><td>342.00</td><td>2023-01-24</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2020-03-30</td><td>146.95</td><td>Adani Green Energy 100x</td><td>999.00</td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2020-03-30</td><td>5120.70</td><td>Bharat Rasayan +91.6%</td><td>9810.00</td><td>2021-03-12</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2020-03-30</td><td>309.55</td><td>PSP Projects 100x</td><td>744.00</td><td></td><td>live</td>
+                </tr>
+            </tbody>
+            </table>
+            <hr>
+            <small>2021-09-07: LASCAPE Portfolio shall henceforth be known as SMALLCAP Portfolio...<a href="https://twitter.com/NiftyGranmaster/status/1435073518928994310" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" height="30" alt=""></a></small>
+            <p>2021-03-15: I allocate X/35 to each stock in CORE portfolio and Y/25 to each stock in LASCAPE Portfolio. <a href="https://twitter.com/NiftyGranmaster/status/1371507059464765440" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" height="30" alt=""></a></p>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        let table = new DataTable('table', {order: [[0, 'desc']]});
+        function showPreview(event) {
+            if (event.target.files.length > 0) {
+                var src = URL.createObjectURL(event.target.files[0]);
+                var preview = document.getElementById("file-ip-1-preview");
+                preview.src = src;
+                preview.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
