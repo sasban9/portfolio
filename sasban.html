@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB Portfolio :: since 2020</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css">
+    <style>
+        * {
+            font-size: 1.1rem
+        }
+        i{background-color: gold; padding: 0 10px;}
+
+        tr td:nth-of-type(2) {
+            text-align: right; font-weight: bold;color: tomato;
+        }
+        tr td:nth-of-type(2)::before {
+            content: '+';
+        }
+        tr td:nth-of-type(4) {
+            text-align: right;
+            background-color: cornsilk;
+        }
+
+        tr td:nth-of-type(5) {
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom: 6rem;">
+    <a href="https://sasban.online"><img src="https://sasban.online/sasban.jpg" height="100" alt="" style="position: fixed; bottom: 20px; right: 20px;opacity: 0.3;"></a>
+    <div class="container">
+        <h2 class="my-4">SB  Portfolio (50 Live/33 Profit/4 Loss) <small style="font-size: 20px;"> **Current prices are from last Sunday <a href="https://sasban9.github.io/portfolio/NiftyGranmaster">LIVE</a></small></h2>
+        
+        <table class="table" id="myTable">
+            <thead>
+                <th>Entry Date</th><th>Entry Price</th><th>SCRIP</th><th>Exit Price</th><th>Exit Date</th><th>Comment</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2022-12-27</td><td>114.14</td><td>SOM DISTILLERIES & BREWERIES L (200)</td><td>150.05</td><td>2023-03-31</td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-11</td><td>835.50</td><td>Quess Corp (10)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-11</td><td>701.78</td><td>Power Mech Projects (10)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-11</td><td>60.10</td><td>Subex (200)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-10</td><td>82.80</td><td>NCC (200)</td><td>93.50</td><td>2021-06-14</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-06-09</td><td>166.90</td><td>Adani Power (150)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-07</td><td>102.00</td><td>Creative Peripherals (100)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-07</td><td>14.40</td><td>Yes Bank (690)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-04</td><td>185.50</td><td>Bhansali Engg Polymers (56)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-04</td><td>42.20</td><td>Prozone Realty (250)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-06-01</td><td>59.55</td><td>Mold-Tek Technologies (15)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-05-28</td><td>92.00</td><td>Adani Power (100)</td><td>150.00</td><td>2021-06-08</td><td>profit</td>
+                </tr>
+                <tr>
+                    <td>2021-05-28</td><td>1333.85</td><td>Adani Total Gas (5)</td><td></td><td></td><td>live</td>
+                </tr>
+                <tr>
+                    <td>2021-05-28</td><td>1714.60</td><td>Nazara Technologies (5)</td><td></td><td></td><td>live</td>
+                </tr>
+            </tbody>
+            </table>
+            <hr>
+            <!-- <small>2021-09-07: LASCAPE Portfolio shall henceforth be known as SMALLCAP Portfolio...<a href="https://twitter.com/NiftyGranmaster/status/1435073518928994310" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" height="30" alt=""></a></small>
+            <p>2021-03-15: I allocate X/35 to each stock in CORE portfolio and Y/25 to each stock in LASCAPE Portfolio. <a href="https://twitter.com/NiftyGranmaster/status/1371507059464765440" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/292px-Logo_of_Twitter.svg.png" height="30" alt=""></a></p> -->
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        let table = new DataTable('table', {order: [[0, 'desc']]});
+        
+    </script>
+</body>
+
+</html>
